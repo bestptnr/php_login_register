@@ -1,0 +1,7 @@
+@font-face {
+    font-family: prompt;
+    src: url('/Prompt/Prompt-Regular.ttf');
+}
+*{
+    font-family: prompt;
+}
