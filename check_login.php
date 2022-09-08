@@ -4,11 +4,10 @@
         if($_SESSION["username"]==""){
                header('location:index.php');
         }
-       
-        $host = "us-cdbr-east-05.cleardb.net";
-        $user = "b86f1f666b16da";
-        $password = "60c89eb7";
-        $database = "heroku_8321f7eb84ba79a";
+         $host = "";
+         $user = "a";
+         $password = ";
+         $database = "";
         
         $conn = mysqli_connect($host,$user,$password,$database);
         $conn->set_charset("utf8");
